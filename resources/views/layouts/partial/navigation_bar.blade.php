@@ -16,6 +16,8 @@
                             class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Favorite</a>
                         <a href="/layouts.populer.all"
                             class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Popular</a>
+                        <a href="/layouts.ongoing.all"
+                            class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">On Going</a>
                     </div>
                 </div>
             </div>
