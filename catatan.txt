@@ -1,0 +1,19 @@
+Langkah - Langkah
+
+1.  Setup Composer
+2.  Membuat Database
+3. Mengkoneksikan Database ke Laravel
+4. Membuat Model sekalian migration dengan promt berikut
+5. php artisan make:model -m namaModel
+6. membuat kolom tabel di file migration
+7. setelah mengisi kolom yang di inginkan lakukan prompt berikut
+8. php artisan migrate untuk dibuatkan tabel di php myadmin
+9.
+
+INSERT INTO on_goings (title, studio, episode, rating ,release_date) VALUES
+('Against the Sky Supreme', 'Soyep', 260, 8.50, , '2023-11-7'),
+('Legend of Martial Immortal', 'Xiaoming Teiji', 52, 8.30, , '2023-02-24'),
+ ('The Invicible', 'Shanghai Foch Film', 16, 8.70,, '2023-05-22'),
+ ('Macthless Emperorr', 'CG Year', 52, 8.85, , '2023-07-15'),
+ ('The Legend of Magic Outfit ', 'Ruo Hong Culture', 40, 9.85, , '2023-02-15');
+

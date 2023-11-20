@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\FavoriteController;
+use App\Http\Controllers\OnGoingController;
 use App\Http\Controllers\PopulerController;
 use Illuminate\Support\Facades\Route;
 
@@ -25,3 +26,5 @@ Route::get('/layouts.favorite.all', [FavoriteController::class, 'index']);
 Route::get('/layouts.favorite.detail{favorite}', [FavoriteController::class, 'show']);
 Route::get('/layouts.populer.all', [PopulerController::class, 'index']);
 Route::get('/layouts.populer.detail{populer}', [PopulerController::class, 'show']);
+Route::get('/layouts.ongoing.all', [OnGoingController::class, 'index']);
+Route::get('/layouts.ongoing.detail{populer}', [OnGoingController::class, 'show']);
